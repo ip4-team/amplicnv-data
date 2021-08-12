@@ -1,0 +1,13 @@
+name: amplicnv-data
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - genmap=1.3.0
+  - pandas=1.3.0
+  - seaborn=0.11.1
+  - pip
+  - pip:
+      - bedhandler
+      - cnvfinder
